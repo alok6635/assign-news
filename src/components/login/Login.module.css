@@ -14,17 +14,17 @@
     width: fit-content;
     background-color: #fff;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
   }
   
   .footer {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
   }
   
   .footer .error {
@@ -67,4 +67,10 @@
     letter-spacing: 1px;
     font-size: 1rem;
     text-decoration: none;
+  }
+  .mainHeading{
+    font-size: 18px;
+  }
+  .heading{
+    font-size: 22px;
   }

@@ -9,15 +9,29 @@
     padding:  5px;
     border: 1px solid #000;
     margin: 3px;
-    border-radius: 2px;
+    border-radius: 12px;
 }
-
-
 .cardGrid{
         width: 100%;
+        display: flex;
+}
+
+.cardGrid img{
+    width: 60%;
+    margin: 0 10px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: grey 2px 1px 7px
     
 }
+.cardGrid div{
+    padding: 30px;
+}
+
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
 }
+

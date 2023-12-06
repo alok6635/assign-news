@@ -49,7 +49,7 @@ const Login =(props)=> {
                         <button onClick={handleInput}>Login</button>
                         <p>
                             Allready have a account ?
-                            <span>
+                            <span className='style.mainHeading'>
                                 <Link to="/signup">Sign up</Link>
                             </span>
                         </p>

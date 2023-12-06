@@ -15,4 +15,9 @@
 }
 .toogleBtn{
   margin:10px;
+  background: aliceblue;
+  border-radius: 7px;
+}
+.card{
+  border-radius: 7px;
 }

@@ -1,8 +1,7 @@
 import { signOut } from "firebase/auth";
 import {auth} from '../Firebase';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import style from './NavBar.module.css'
-
 
 const NavBar=(props)=>{
 
@@ -20,7 +19,7 @@ const NavBar=(props)=>{
         <>
 <nav className="navbar navbar-expand-lg navbar-light bg-light ">
   <div className="container-fluid newNav">
-    <a className="navbar-brand" href="#">News-app</a>
+    <Link className="navbar-brand" to="/home">News-app</Link>
   </div>
   <div className="welcome">
   {props.name? `welcome ${props.name}`: 'Login please'}
